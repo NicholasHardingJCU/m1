@@ -15,10 +15,9 @@ body {
 }
 .navbar{
 	float:left;
-	width: 910px;
+	width: 952px;
 	height:26px;
-	margin-left:75px;
-	margin-bottom: 10px;
+	margin-left:54px;
 }
 .navbar ul {
 	float:left;
@@ -42,15 +41,15 @@ body {
 	background-color: #3699c9;
 	width: 120px;
 	text-align:center;
-	padding:5px;
+	padding:8px;
 }
 .navbar a:hover,a:active {
 	color: #ffa200;
 	
 }
-.divider {
+.navdivider {
     position: absolute;
-    padding:4px;  
+    padding:8px;  
 	color: white;
 }
 .webtail{
@@ -67,8 +66,6 @@ body {
 	margin:0;
 	padding:0;
 	overflow:hidden;
-
-	
 }
 .webtail li {
 	float:right;
@@ -80,7 +77,6 @@ body {
 	display:block;
 	font: bold;
 	color:#FFFFFF;
-	background-color: #3699c9;
 	width: 120px;
 	text-align:center;
 	padding:10px;
@@ -111,9 +107,7 @@ body {
 	float:left;
 	width: 910px;
 	height: 70px;
-	margin-left:75px;
-	margin-top: 20px;
-		
+	margin-left:75px;	
 }
 .facebookimg{
 	position: absolute;
@@ -128,19 +122,19 @@ body {
 .mainwrapper{
 	float: left;
 	width: 1060px;
-	margin-top:10px;
+	margin-top:20px;
 	margin-bottom: 10px;
 }
-.leftuppertext{
+.leftuppercontentstext{
 	font-family: Haettenschweiler;
 	letter-spacing: 0.4px;
 	float:left;
-	font:bold;
+	color: #263252;
 	font-size: 25px;
 	width: 140px;
 }
 .artistcontent p{
-	margin-left: 290px;
+	margin-left: 10px;
 	margin-right: 10px;
 }
 .artistimage{
@@ -158,8 +152,8 @@ body {
 .artistheader {
 	font-size: 20px;
 	color: #263252;
+	letter-spacing: 0.4px;
 	font-family: Haettenschweiler;
-	text-shadow: 0 2px 1px rgba(0, 0, 0, .5); 
 	margin-left: 50px;
 }
 .artistnavigation{
@@ -167,34 +161,267 @@ body {
 }
 .leftprevpost{
 	float:left;
+	width: 170px;
 	margin-left: 140px;
 }
 .rightnextpost{
 	float:right;
-	margin-left: 650px;
+	width: 170px;
+	margin-left: 580px;
 }
-.artistnavigation a:link,a:visited {
+.leftprevpost a:link,a:visited {
 	text-decoration: none;
 	color: #263252;
 	text-shadow: 0 2px 1px rgba(0, 0, 0, 0.2); 
 	font: bold;
-	text-align:center;
+	text-align:left;
+}
+.rightnextpost a:link,a:visited {
+	text-decoration: none;
+	color: #263252;
+	text-shadow: 0 2px 1px rgba(0, 0, 0, 0.2); 
+	font: bold;
+	text-align:right;
 }
 .artistnavigation a:hover,a:active {
 	color: #ffa200;
-}
-.leftprevpost p{
-	
 }
 .nextpagearrow{
 	position: absolute;
 	color: #263252;
     font-size: 24px;
-	margin-left:160px;
+	margin-left:180px;
+	margin-top: 16px;
 }
 .prevpagearrow{
 	position: absolute;
 	color: #263252;
     font-size: 24px;
 	margin-left: -20px;
+	margin-top: 16px;
+}
+.nexttext{
+	float:right;
+}
+.prevtext{
+	float:left;
+}
+.breadcrumb {
+	float:left;
+	color: #ffa200;
+	height:12px;
+}
+.breadcrumb ul{
+	margin-left: 50px;
+	padding-bottom: 0px;
+    list-style: none;
+    font-size: 11.3px;
+}
+.breadcrumb li{
+	display: inline;
+}
+.breadcrumb li+li:before {
+	padding: 2px;
+    color: grey;
+    content: "/\00a0";
+}
+.breadcrumb li a{
+    text-decoration: none;
+	color: grey;
+}
+.breadcrumb li a:hover {
+	color:#ffa200;
+}
+
+.login a{
+	padding-top: 10px;
+	text-decoration: none;
+	float: right;
+	font-weight: bold;
+	transition: all .5s;
+	border-radius: 5px;
+	color: white;
+	background: #3699c9;
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	box-shadow: 1px 1px 5px rgba(0,0,0,.5),0px 0px 0px 1px rgba(0,0,0,.1);
+	cursor: pointer;
+	margin-top: 20px;
+}
+.login a:hover{
+	background: #ffa200;
+	
+}
+.slider{
+	width:700px;
+	height:319px;
+	border:1px solid black;
+	position: relative;
+}
+.slider img{
+	width: 100%;
+	height:100%;
+	position: absolute;
+}
+.slider button{
+	position: absolute;
+	width: 25px;
+	height:25px;
+	border:none;
+	border-radius: 25px;
+	top: 150px;
+	background: black;
+	color: #3699c9;
+}
+.slider button:hover{
+	box-shadow: 0px 0px 5px 1px #3699c9;
+	cursor: pointer;
+}
+.indexrotateimage{
+	float: left;
+}
+.indexwelcomecontainer{
+	float: right;
+	width: 349px;
+	
+	background-color: #f6f6f6;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.2), 0 2px 1px rgba(0, 0, 0, 0.8);
+}
+h3{
+	font-family: Haettenschweiler;
+	font-size: 30px;
+	color: #3699c9;
+	margin:5px;
+}
+.indexwelcomecontainer p{
+	font-size: 14px;
+	padding-left: 8px;
+	padding-right:8px;
+}
+.indexmember{
+	float:left;
+	width:700px;
+	height: 116px;
+}
+.whitefill{
+	position: absolute;
+	z-index: -10000;
+	margin-top:15px;
+}
+.whitefillleft{
+	position: absolute;
+	z-index: -10000;
+	margin-left: 500px;
+	margin-top:15px;
+}
+.indexmembercontainer{
+	margin-top:20px;
+	text-align: center;
+}
+.member a{
+	font-size:20px;
+	padding:5px 20px;
+	text-decoration: none;
+	transition: all .5s;
+	border-radius: 3px;
+	color: white;
+	background: #3699c9;
+	text-align: center;
+	box-shadow: 1px 1px 5px rgba(0,0,0,.5),0px 0px 0px 1px rgba(0,0,0,.1);
+	cursor: pointer;
+}
+.member a:hover{
+	background: #ffa200;
+}
+.indexmember h6{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+.concertholder{
+	margin-top:25px;
+	float: left;
+	width: 340px;
+	padding: 0px 1px 0px 5px;
+	background-color: #f6f6f6;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.2), 0 2px 1px rgba(0, 0, 0, 0.8);
+}
+.concertholder img{
+	padding-left:27px;
+
+}
+.concertholder a{
+	float:right;
+	margin-right: 10px;
+	margin-bottom:5px;
+	text-decoration: none;
+	color: #3699c9;
+	text-shadow: 0 2px 1px rgba(0, 0, 0, 0.2); 
+	font: bold;
+}
+.concertholder a:hover{
+	color: #ffa200;
+}
+.newfeedholder{
+	margin-top:15px;
+	margin-left:10px;
+	float: right;
+	width: 698px;
+	padding-bottom: 9px;
+	background-color: #f6f6f6;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.2), 0 2px 1px rgba(0, 0, 0, 0.8);
+}
+.newfeedholder a{
+	margin-left:14px;
+	text-decoration: none;
+	color: #3699c9;
+	text-shadow: 0 2px 1px rgba(0, 0, 0, 0.2); 
+	font: bold;
+}
+.newfeedholder a:hover{
+	color: #ffa200;
+}
+.newfeedholder p{
+	font-size: 14px;
+	margin-left:15px;
+	margin-right:10px;
+	margin-bottom: 2px;
+	margin-top:3px;
+}
+.newfeedholder h2{
+	font-size: 19px;
+	margin-left:7px;
+	margin-top:17px;
+	margin-bottom: 2px;
+	font-weight:bold;
+}
+.sponsorholder{
+	float: left;
+	margin-top: 20px;
+	width: 1060px;
+	height: 150px;
+}
+.sponsorbutton{
+	margin-left: 400px;
+}
+.sponsorbutton a{
+	float:left;
+	font-size:20px;
+	padding:5px 20px;
+	text-decoration: none;
+	transition: all .5s;
+	border-radius: 3px;
+	color: white;
+	background: #3699c9;
+	text-align: center;
+	box-shadow: 1px 1px 5px rgba(0,0,0,.5),0px 0px 0px 1px rgba(0,0,0,.1);
+	cursor: pointer;
+}
+.sponsorbutton a:hover{
+	background: #ffa200;
+}
+.sponsorimage{
+	margin-top: 50px;
 }
