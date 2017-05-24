@@ -5,6 +5,7 @@
 <title>Support Us - Barrier Reef Orchestra</title>
 <link href="main.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="steves.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<div class="mainbody">
@@ -60,7 +61,8 @@
 		  	<div class = "projectRight">
 				<p>---------------------------------------------------------------------------------------------------</p>
 				<h3 class = "heading3font">Become a Member</h3>
-				<div class="mybutton">Become a Member</div>
+				
+				<div class="mybutton"><a href="register.html">Become a Member</a></div>
 			</div>
 		  	<div class = "projectRight">
 				<div class="artistimage"><img src = "Images/Artists page images/Artists/2010-ji-won-kim.jpg" width = "250" height = "300" alt = "Ji Won Kim Photo"/></div>
@@ -80,8 +82,26 @@
 
 		<p>	Please complete the details below and press Submit, or download the form to complete manually.
 			Cheques are to be made payable to North Queensland Ensembles Inc. Direct Debit to BSB 034-222 Account No. 173922.</p>
+		
+		<form action="/html/tags/html_form_tag_action.cfm" method="get">
+			Email:<input pattern="[^ @]*@[^ @]*[^.]" placeholder="Enter your email">
+
+			<input type="submit" value="Submit" onclick="ValidateEmail(document.form1.text1)">
+		</form>
+		
+		<div class="mybutton"><a href="#popup1">Submit</a></div>
+		<div id="popup1" class="overlay">
+			<div class="popup">
+				<a class="close" href="#">OK</a>
+				<div class="content">
+					<p>Thank you for joining</p>
+					<p>Please enjoy the benefits</p>
+				</div>
+			</div>
+		</div>
 		<img src="Images/New-Sponsor-BOTTOM-BAND-Kay-1.jpg" width = "100%" alt = "Sponsors Picture"/>
 	</div>
+	
 	<div class = "mainbody">
 	<div class="webtailwrapper">
 	<div class="contactimg"><img src="Images/contacticoninactive.png" width="43" height="42" alt="Contact icon"/></div>
