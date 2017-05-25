@@ -5,7 +5,6 @@ body {
 }
 .mainbody {
 	width: 1060px;
-	min-height: 600px;
 	margin-right: auto;
 	margin-left:auto;
 }
@@ -15,9 +14,9 @@ body {
 }
 .navbar{
 	float:left;
-	width: 952px;
+	width: 100%;
 	height:26px;
-	margin-left:54px;
+	
 }
 .navbar ul {
 	float:left;
@@ -39,22 +38,29 @@ body {
 	font: bold;
 	color:#FFFFFF;
 	background-color: #3699c9;
-	width: 120px;
+	width: 135.4px;
 	text-align:center;
 	padding:8px;
 }
+.navbar a:visited{
+	color: white;
+}
 .navbar a:hover,a:active {
-	color: #ffa200;
-	
+	color: #ffa200;	
+}
+.fontforbio{
+	color : #ffa200;
+	font-size : 0.8em ;
+	margin:5px;
 }
 .navdivider {
     position: absolute;
-    padding:8px;  
+    padding:8px;
 	color: white;
 }
 .webtail{
 	float:left;
-	width: 910px;
+	width: 1060px;
 	margin-top:15px;
 	background-color: #3699c9;
 	text-shadow: 0 2px 1px rgba(0, 0, 0, 0.2); 
@@ -82,8 +88,7 @@ body {
 	padding:10px;
 }
 .webtail a:hover,a:active {
-	color: #ffa200;
-	
+	color: #ffa200;	
 }
 .webtailleft{
 	float:left;
@@ -101,22 +106,21 @@ body {
 }
 .webtailicon img{
 	position: absolute;
-	padding-left: 425px;
+	padding-left: 506.5px;
 }
 .webtailwrapper{
 	float:left;
-	width: 910px;
+	width: 100%;
 	height: 70px;
-	margin-left:75px;	
 }
 .facebookimg{
 	position: absolute;
-	margin-left: 630px;
+	margin-left: 779px;
 	margin-top: 14px;
 }
 .contactimg{
 	position: absolute;
-	margin-left: 771px;
+	margin-left: 924px;
 	margin-top: 14px;
 }
 .mainwrapper{
@@ -126,12 +130,13 @@ body {
 	margin-bottom: 10px;
 }
 .leftuppercontentstext{
-	font-family: Haettenschweiler;
-	letter-spacing: 0.4px;
 	float:left;
-	color: #263252;
-	font-size: 25px;
 	width: 140px;
+}
+.leftuppercontentstext h3{
+	letter-spacing: 0.4px;
+	color: #263252;
+	font-size: 20px;
 }
 .artistcontent p{
 	margin-left: 10px;
@@ -264,33 +269,18 @@ body {
 	height:100%;
 	position: absolute;
 }
-.slider button{
-	position: absolute;
-	width: 25px;
-	height:25px;
-	border:none;
-	border-radius: 25px;
-	top: 150px;
-	background: black;
-	color: #3699c9;
-}
-.slider button:hover{
-	box-shadow: 0px 0px 5px 1px #3699c9;
-	cursor: pointer;
-}
 .indexrotateimage{
 	float: left;
 }
 .indexwelcomecontainer{
 	float: right;
 	width: 349px;
-	
 	background-color: #f6f6f6;
 	box-shadow: 0 1px 0 rgba(255,255,255,0.2), 0 2px 1px rgba(0, 0, 0, 0.8);
 }
-h3{
-	font-family: Haettenschweiler;
-	font-size: 30px;
+h3{ 
+	font-weight: bolder;
+	font-size: 25px;
 	color: #3699c9;
 	margin:5px;
 }
@@ -369,6 +359,7 @@ h3{
 	margin-left:10px;
 	float: right;
 	width: 698px;
+	height: 454px;
 	padding-bottom: 9px;
 	background-color: #f6f6f6;
 	box-shadow: 0 1px 0 rgba(255,255,255,0.2), 0 2px 1px rgba(0, 0, 0, 0.8);
@@ -424,4 +415,314 @@ h3{
 }
 .sponsorimage{
 	margin-top: 50px;
+}
+.concertcontainer{
+	float:left;
+	width: 525px;
+	background-color: #f6f6f6;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.2), 0 2px 1px rgba(0, 0, 0, 0.8);
+}
+.repertoirecontainer{
+	float:right;
+	width: 525px;
+	background-color: #f6f6f6;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.2), 0 2px 1px rgba(0, 0, 0, 0.8);
+}
+.repertoirecontainer h4{
+	margin:10px;
+}
+.concertcontainer h4{
+	margin:10px;
+}
+.concertone{
+	float:left;
+	margin-left: 20px;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.2), 0 2px 1px rgba(0, 0, 0, 0.8);
+}
+.concerttwo{
+	float:left;
+	margin-left: 15px;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.2), 0 2px 1px rgba(0, 0, 0, 0.8);
+}
+.concertthree{
+	float:left;
+	margin-left: 15px;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.2), 0 2px 1px rgba(0, 0, 0, 0.8);
+}
+.specialevents{
+	float:left;
+	height:260px;
+}
+.concert2017{
+	float:left;
+	margin-bottom: 10px;
+	height:260px;
+	width: 500px;
+}
+.concert2016{
+	float:left;
+	margin-bottom: 10px;
+	height:260px;
+	width: 500px;
+}
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+button.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2212";
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.bold{
+	font-weight: bolder;
+	color:#3699c9;
+}
+.registerheader{
+	margin-left:15px;
+}
+.signup h1 {
+	font-size: 52px;
+	text-align:center;
+	font-family: 'chicle', sans-serif;
+	color:#021EA0;
+}
+
+.signup input, .signup select {
+	padding: 0.5em;
+	border-radius:3px;
+	border: 2px solid lightgray;
+	margin-bottom: 1.5em;
+}
+.signup form {
+	width:100%;
+	margin-left: 1em;
+}
+
+.signup button {
+	padding: 1em 3em;
+	border-radius:3px;
+	border: 2px solid lightgray;
+	margin-bottom: 1.5em;
+	font-family: 'chicle', sans-serif;
+}
+.signup p {
+	font-family: 'chicle', sans-serif;
+}
+.signup checkbox {
+	margin: 1em;
+}
+.artistbold{
+	font-weight: bold;
+}
+.committeeleft table{
+	margin-left:10px;
+	width: 390px;
+}
+.committeecontainer{
+	float:left;
+	width: 700px;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	background-color: #f6f6f6;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.2), 0 2px 1px rgba(0, 0, 0, 0.8);
+}
+.committeeleft{
+	float:left;	
+}
+.committeeright{
+	float:right;
+	margin-top: 42px;
+	margin-right: 60px;
+}
+.artistmemberjoin img{
+	float:right;
+	margin-right:50px;
+	box-shadow: 1px 1px 5px rgba(0,0,0,.5),0px 0px 0px 1px rgba(0,0,0,.1);
+}
+.artistmemberbutton a{
+	padding-top: 10px;
+	text-decoration: none;
+	position: absolute;
+	z-index: 100000;
+	font-weight: bold;
+	transition: all .5s;
+	border-radius: 5px;
+	color: white;
+	background: #3699c9;
+	width: 211px;
+	height: 30px;
+	text-align: center;
+	box-shadow: 1px 1px 5px rgba(0,0,0,.5),0px 0px 0px 1px rgba(0,0,0,.1);
+	cursor: pointer;
+	margin-top: 250px;
+	margin-left:106px
+}
+.artistmemberbutton a:hover{
+	background-color: #ffa200;
+}
+.lifemembercontainer{
+	float:left;
+	width: 100%;
+	margin-bottom: 50px;
+}
+.artistsubheader{
+	color: #ffa200;
+}
+.artistonecontent p{
+	margin:0;
+	font-size:15px;
+}
+.artistonecontent h3{
+	font-weight:bold;
+	color:black;
+	font-family: roboto;
+	font-size: 22px;
+	margin-top: 2px;
+	margin-left:2px;
+}
+.artistonecontent{
+	background-color: #f6f6f6;
+	margin-top: 170px;
+	padding:20px 9px 9px 9px;
+	border: 2px solid grey;
+	width: 100%;
+	height:106px;
+}
+.artistone img{
+	position: absolute;
+	margin-left:15px;
+}
+.artistone{
+	float:left;
+	width:225px;
+	height: 300px;
+}
+.artisttwocontent p{
+	margin:0;
+	font-size:15px;
+}
+.artisttwocontent h3{
+	font-weight:bold;
+	color:black;
+	font-family: roboto;
+	font-size: 22px;
+	margin-top: 2px;
+	margin-left:2px;
+}
+.artisttwocontent{
+	background-color: #f6f6f6;
+	margin-top: 170px;
+	padding:20px 9px 9px 9px;
+	border: 2px solid grey;
+	width: 100%;
+	height:106px;
+}
+.artisttwo img{
+	position: absolute;
+	margin-left:15px;
+}
+.artisttwo{
+	float:left;
+	width:225px;
+	height: 300px;
+	margin-left: 46px;
+}
+.artistthreecontent p{
+	margin:0;
+	font-size:15px;
+}
+.artistthreecontent h3{
+	font-weight:bold;
+	color:black;
+	font-family: roboto;
+	font-size: 22px;
+	margin-top: 2px;
+	margin-left:2px;
+}
+.artistthreecontent{
+	background-color: #f6f6f6;
+	margin-top: 170px;
+	padding:20px 9px 9px 9px;
+	border: 2px solid grey;
+	width: 100%;
+	height:106px;
+}
+.artistthree img{
+	position: absolute;
+	margin-left:15px;
+}
+.artistthree{
+	float:left;
+	width:225px;
+	height: 300px;
+	margin-top: 20px;
+}
+.artistfourcontent p{
+	margin:0;
+	font-size:15px;
+}
+.artistfourcontent h3{
+	font-weight:bold;
+	color:black;
+	font-family: roboto;
+	font-size: 22px;
+	margin-top: 2px;
+	margin-left:2px;
+}
+.artistfourcontent{
+	background-color: #f6f6f6;
+	margin-top: 170px;
+	padding:20px 9px 9px 9px;
+	border: 2px solid grey;
+	width: 100%;
+	height:106px;
+}
+.artistfour img{
+	position: absolute;
+	margin-left:15px;
+}
+.artistfour{
+	float:left;
+	width:225px;
+	height: 300px;
+	margin-top: 20px;
+	margin-left: 46px;
+}
+.guestconductorcontainer{
+	float:left;
+	width: 100%;
+	margin-bottom: 50px;
+}
+.guestartistscontainer{
+	float:left;
+	width: 100%;
+	margin-bottom: 50px;
 }
